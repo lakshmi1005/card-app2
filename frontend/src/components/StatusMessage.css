@@ -1,0 +1,35 @@
+.status-message {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+  backdrop-filter: blur(10px);
+}
+
+.message {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.algorithm-info {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .status-message {
+    margin: 0.5rem;
+    padding: 0.75rem;
+  }
+  
+  .message {
+    font-size: 1rem;
+  }
+  
+  .algorithm-info {
+    font-size: 0.8rem;
+  }
+}
