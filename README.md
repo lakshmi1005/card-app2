@@ -24,14 +24,14 @@ cd backend
 npm install
 npm start
 
-This will start the backend on http://localhost:5000
+This will start the backend on http://localhost:5001
 
 3. Frontend Setup
 cd ../frontend
 npm install
 npm start
 
-The React frontend will launch at http://localhost:3000
+The React frontend will launch at http://localhost:3001
 
 API Endpoints
 Method	Endpoint	Description
